@@ -36,10 +36,22 @@ export default function Footer() {
           ))}
         </div>
 
+        <p className="text-[11px] font-bold uppercase tracking-wide text-white/60">
+          Powered by Ethereum
+        </p>
+
         <p className="max-w-md text-[11px] leading-relaxed text-white/50">
-          DEADCAT is a meme token created for entertainment. No guaranteed value, returns,
-          or utility. Not financial advice. Not affiliated with, endorsed by, or partnered
-          with Robinhood Markets, Inc.
+          DEADCAT is a meme token created for entertainment purposes only. Participation
+          involves significant risk, and digital assets can lose some or all of their
+          value. Nothing on this site constitutes financial, investment, legal, or tax
+          advice, and no guarantee is made regarding value, returns, or utility. DEADCAT
+          is not affiliated with, endorsed by, or partnered with Robinhood Markets, Inc.
+          or any other company referenced. Please do your own research and consult a
+          qualified professional before making any financial decisions.
+        </p>
+
+        <p className="text-[11px] font-bold text-white/40">
+          &copy; {new Date().getFullYear()} DEADCAT. All rights reserved.
         </p>
       </div>
     </footer>

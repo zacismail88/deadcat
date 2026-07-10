@@ -15,9 +15,11 @@ export default function Hero() {
           <p className="heading-punch text-xl sm:text-2xl">
             Wall Street&apos;s favorite dead cat.
           </p>
-          <p className="text-lg font-bold sm:text-xl">The bounce starts here.</p>
+          <p className="text-lg font-bold sm:text-xl">
+            <span aria-hidden="true">🪶</span> Recently hired by Robinhood.
+          </p>
           <p className="text-base font-semibold text-ink/70 sm:text-lg">
-            Upcoming meme coin on Robinhood Chain.
+            The bounce starts here.
           </p>
 
           <div className="flex flex-wrap gap-4 pt-2">

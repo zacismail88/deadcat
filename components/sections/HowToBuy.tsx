@@ -30,6 +30,13 @@ export default function HowToBuy() {
           </div>
 
           <div className="mt-4 flex flex-col items-center justify-between gap-2 rounded-2xl border-4 border-black bg-background px-5 py-4 sm:flex-row">
+            <span className="heading-punch text-sm">Launch</span>
+            <span className="rounded-full border-4 border-black bg-white px-4 py-1 font-mono text-sm font-black uppercase">
+              Fair Launch Community Coin
+            </span>
+          </div>
+
+          <div className="mt-4 flex flex-col items-center justify-between gap-2 rounded-2xl border-4 border-black bg-background px-5 py-4 sm:flex-row">
             <span className="heading-punch text-sm">Tax</span>
             <span className="rounded-full border-4 border-black bg-white px-4 py-1 font-mono text-lg font-black uppercase">
               0/0
