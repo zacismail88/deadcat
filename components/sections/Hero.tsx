@@ -16,7 +16,7 @@ export default function Hero() {
             Wall Street&apos;s favorite dead cat.
           </p>
           <p className="text-lg font-bold sm:text-xl">
-            <span aria-hidden="true">🪶</span> Recently hired by Robinhood.
+            Recently hired by Robinhood <span aria-hidden="true">🪶</span>
           </p>
           <p className="text-base font-semibold text-ink/70 sm:text-lg">
             The bounce starts here.
