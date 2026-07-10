@@ -16,7 +16,6 @@ export default function Hero() {
             Wall Street&apos;s favorite dead cat.
           </p>
           <p className="text-lg font-bold sm:text-xl">The bounce starts here.</p>
-          <p className="text-lg font-bold sm:text-xl">Death was priced in.</p>
           <p className="text-base font-semibold text-ink/70 sm:text-lg">
             Upcoming meme coin on Robinhood Chain.
           </p>
