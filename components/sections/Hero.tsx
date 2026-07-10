@@ -40,7 +40,7 @@ export default function Hero() {
             ))}
 
             <motion.div
-              className="sticker-lg relative aspect-square w-full overflow-hidden bg-white p-3"
+              className="sticker-lg relative aspect-square w-full bg-white p-3"
               animate={{ y: [0, -14, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
