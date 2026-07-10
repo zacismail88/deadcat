@@ -43,7 +43,6 @@ export type GalleryImage = {
   alt: string;
   width: number;
   height: number;
-  wide?: boolean;
 };
 
 export const GALLERY_IMAGES: GalleryImage[] = [

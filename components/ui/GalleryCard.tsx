@@ -11,14 +11,14 @@ type GalleryCardProps = GalleryImage & {
 
 const TILTS = ["-rotate-3", "rotate-2", "-rotate-2", "rotate-3", "-rotate-1", "rotate-1"];
 
-export default function GalleryCard({ src, alt, width, height, wide, index, onClick }: GalleryCardProps) {
+export default function GalleryCard({ src, alt, width, height, index, onClick }: GalleryCardProps) {
   const tilt = TILTS[index % TILTS.length];
 
   return (
     <motion.button
       type="button"
       onClick={onClick}
-      className={`sticker ${tilt} w-full cursor-pointer overflow-hidden p-2 ${wide ? "col-span-2 lg:col-span-3" : ""}`}
+      className={`sticker ${tilt} w-full cursor-pointer overflow-hidden p-2`}
       whileHover={{ rotate: 0, scale: 1.05, y: -4 }}
       whileTap={{ scale: 0.97 }}
       transition={{ type: "spring", stiffness: 300, damping: 14 }}
@@ -31,7 +31,7 @@ export default function GalleryCard({ src, alt, width, height, wide, index, onCl
           src={src}
           alt={alt}
           objectFit="contain"
-          sizes="(min-width: 1024px) 400px, 45vw"
+          sizes="(min-width: 1024px) 400px, 90vw"
         />
       </div>
     </motion.button>

@@ -22,7 +22,7 @@ export default function MemeGallery() {
           Scenes From The Trading Floor
         </motion.h2>
 
-        <div className="mt-10 grid grid-cols-2 gap-6 sm:mt-14 lg:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 gap-6 sm:mt-14 lg:grid-cols-3">
           {GALLERY_IMAGES.map((image, index) => (
             <GalleryCard key={image.src} {...image} index={index} onClick={() => setActive(image)} />
           ))}

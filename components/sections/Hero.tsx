@@ -40,19 +40,19 @@ export default function Hero() {
             ))}
 
             <motion.div
-              className="sticker-lg relative aspect-square w-full bg-white p-3"
+              className="sticker-lg relative w-full bg-white p-3"
               animate={{ y: [0, -14, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             >
-              <div className="relative h-full w-full overflow-hidden rounded-2xl border-4 border-black">
-                <PlaceholderImage
-                  src={HERO_IMAGE.src}
-                  alt={HERO_IMAGE.alt}
-                  objectFit="contain"
-                  priority
-                  sizes="(min-width: 1024px) 448px, 90vw"
-                />
-              </div>
+              <PlaceholderImage
+                src={HERO_IMAGE.src}
+                alt={HERO_IMAGE.alt}
+                width={HERO_IMAGE.width}
+                height={HERO_IMAGE.height}
+                priority
+                sizes="(min-width: 1024px) 448px, 90vw"
+                className="rounded-2xl border-4 border-black"
+              />
             </motion.div>
           </div>
         </motion.div>
